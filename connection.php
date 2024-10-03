@@ -14,5 +14,4 @@ $connection= new mysqli($server,$user,$password,$db);
 if($connection->connect_error){
     die("Connection error: ".$connection->connect_error);
 }
-echo "Connection stablished";
 ?>
