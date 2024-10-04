@@ -14,12 +14,12 @@
                         header("location:inicio.php");
                     }
                     else{
-                        echo "Acceso Denegado";
+                        echo '<div class="alert alert-danger">Usuario y/o Contraseña incorrecta</div>';
                     }   
                 }   
             }
             else{
-                echo "Acceso Denegado";
+                echo '<div class="alert alert-danger">Usuario y/o Contraseña incorrecta</div>';
             }          
         }        
     }
